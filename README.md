@@ -1,6 +1,11 @@
-   <h1>E-commerce Design</h1>
-    <h3>About the project</h3>
-    <p>
-     The project has information about
-      bringing orders and clothes.
-    </p>
+# E-commerce-design
+
+###  Hello, this project is created using HTML and CSS.  
+
+## Setup Project  
+
+### You need to download this project your to local machine using this command or you can download zip file. 
+
+     git clone https://github.com/BilgeGates/E-commerce-design.git  
+
+## Haven a nice day!
