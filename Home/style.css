@@ -27,7 +27,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--black-color);
 }
 
 .container {
@@ -76,13 +75,13 @@ nav ul a {
   outline: none;
 }
 
-.cart-number {
+.cargo-number {
   position: absolute;
   right: -8px;
   top: -8px;
 }
 
-.cart-head-number {
+.cargo-head-number {
   border-radius: 50%;
   background-color: var(--black-color);
   padding: 1px 5px;
@@ -133,7 +132,7 @@ nav ul a {
   box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover .add-to-cart {
+.card:hover .add-to-card {
   display: flex;
 }
 
@@ -152,7 +151,7 @@ nav ul a {
   width: 60%;
 }
 
-.add-to-cart {
+.add-to-card {
   background-color: var(--primary-color);
   border-radius: 50%;
   width: 52px;
@@ -168,6 +167,7 @@ nav ul a {
 }
 
 /*Tablet screen*/
+
 @media only screen and (max-width: 768px) {
   .products {
     grid-template-columns: auto auto;
@@ -175,6 +175,7 @@ nav ul a {
 }
 
 /*Phone screen*/
+
 @media only screen and (max-width: 425px) {
   nav ul {
     display: none;
